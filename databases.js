@@ -11,7 +11,7 @@ module.exports = function(database) {
   config = require(path.join(paths.configurations, '/configurations.js'))(database);
   var common = config.common,
   server_prefix = common.server_prefix || 'PREFIX';
-  console.log(server_prefix + " - Databases databases required.");
+  console.log(server_prefix + " - Databases database required.");
   _Databases.database = require('./' + database + '.js');
   return _Databases;
 };//does not call itself
