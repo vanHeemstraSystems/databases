@@ -1,0 +1,22 @@
+{
+  "name": "databases",
+  "version": "1.0.0",
+  "description": "The Databases Subtree",
+  "main": "databases.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanHeemstraSystems/databases.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanHeemstraSystems/databases/issues"
+  },
+  "homepage": "https://github.com/vanHeemstraSystems/databases#readme",
+  "dependencies": {
+    "rethinkdbdash": "^2.3.4"
+  }
+}
